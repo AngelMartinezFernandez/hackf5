@@ -20,8 +20,8 @@ export default {
   name: "Login",
   data() {
     return {
-      email: '',
-      pass: '',
+      email: 'hackf5@gmail.com',
+      pass: '123123',
     }
   },
   computed: {
