@@ -8,6 +8,11 @@ export default createStore({
       surname: 'Fernández',
       email: '',
       pass: ''
+    },
+    task: {
+      person: '',
+      taskName: '',
+      taskCategory: ''
     }
   },
   mutations: {

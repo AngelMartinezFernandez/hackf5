@@ -1,13 +1,38 @@
 <template>
-  a
-  <InputsForm/>
+  <h1 class="text-center">Inicio</h1>
+  <div class="container">
+    <div class="card card-home">
+      <div class="card-body">
+        <h6 class="text-center">Agenda Semanal</h6>
+        <h2 class="text-center">10:00</h2>
+        <h6 class="text-center">Lunes 23 de Marzo 2021</h6>
+      </div>
+    </div><div class="card card-home">
+      <div class="card-body">
+        <h6 class="text-center">Agenda Diaria</h6>
+        <h2 class="text-center">Tareas de hoy</h2>
+      </div>
+    </div><div class="card card-home">
+      <div class="card-body">
+        <h2 class="text-center">Ayuda</h2>
+      </div>
+    </div><div class="card card-home">
+      <div class="card-body">
+        <h2 class="text-center">Diario</h2>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Home',
-  components: {
-
-  }
+  components: {},
+  methods: {}
 }
 </script>
+<style>
+.card-home{
+  background-color: #e4f3ef;
+}
+</style>
