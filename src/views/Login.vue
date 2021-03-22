@@ -34,12 +34,12 @@ export default {
       }
       return true
     },
-    methods: {
-      loginForm(){
-        console.log('Logueando')
-      }
-    }
   },
+  methods: {
+    loginForm(){
+      console.log('Logueando')
+    }
+  }
 }
 </script>
 
