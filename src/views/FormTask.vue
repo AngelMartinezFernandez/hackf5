@@ -1,13 +1,13 @@
 <template>
-  a
-  <InputsForm/>
+
 </template>
 
 <script>
 export default {
-  name: 'Home',
-  components: {
-
-  }
+  name: "FormTask"
 }
 </script>
+
+<style scoped>
+
+</style>
