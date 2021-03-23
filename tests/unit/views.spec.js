@@ -14,7 +14,7 @@ import WeekTask from '@/views/WeekTask.vue'
 describe('Diary View Component unit tests: ', () => {
     const h2Tag = '<h2>'
     const h1Tag = '<h2>'
-    const routerLink = '<router-link>'
+    const routerLink = '</router-link>'
     const wrapper = mount(Diary)
 
 
