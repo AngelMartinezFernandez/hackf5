@@ -13,7 +13,7 @@ import WeekTask from '@/views/WeekTask.vue'
 
 describe('Diary View Component unit tests: ', () => {
     const h2Tag = '<h2>'
-    const h1Tag = '<h2>'
+    const h1Tag = '<h1>'
     const routerLink = '</router-link>'
     const wrapper = mount(Diary)
 
@@ -27,6 +27,33 @@ describe('Diary View Component unit tests: ', () => {
     test('renders the h2 tag', () => {
 
         expect(wrapper.html()).toContain(h1Tag)
+    })
+    test('renders router-link', () => {
+
+        expect(wrapper.html()).toContain(routerLink)
+    })
+})
+
+describe('Help View Component unit tests: ', () => {
+    const h2Tag = '<h2>'
+    const h1Tag = '<h1>'
+    const routerLink = '</router-link>'
+    const wrapper = mount(Help)
+
+
+    test('renders the h1 name', () => {
+        const h1Name = 'AYUDA'
+
+        expect(wrapper.html()).toContain(h1Name)
+    })
+
+    test('renders the h1 tag', () => {
+
+        expect(wrapper.html()).toContain(h1Tag)
+    })
+    test('renders the h2 tag', () => {
+
+        expect(wrapper.html()).toContain(h2Tag)
     })
     test('renders router-link', () => {
 
