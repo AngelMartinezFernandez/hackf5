@@ -16,11 +16,26 @@
     </div>
   </div>
 
-
-      <button type="submit" class="btn-register" :disabled="btnBlock">RECOMPENSAS SEMANALES</button>
-      <button type="submit" class="btn-register" :disabled="btnBlock">IR A MIS TAREAS</button>
-    
+  <button type="submit" class="btn-register" :disabled="btnBlock">RECOMPENSAS SEMANALES</button>
+  <div class="container-favs">
+    <div class="container-fav">
+      <div class="fav"><img src="/imgs/heart.svg" class="ico-fav"></div>
+        <button class="btn-fav">Ir al Cine</button>
+    </div>
+    <div class="container-fav">
+      <div class="fav"><img src="/imgs/heart.svg" class="ico-fav"></div>
+        <button class="btn-fav">Jugar a la consola</button>
+    </div>
+    <div class="container-fav">
+      <div class="fav"><img src="/imgs/heart.svg" class="ico-fav"></div>
+        <button class="btn-fav">Pedir pizza</button>
+    </div>
   </div>
+  <button type="submit" class="btn-register" :disabled="btnBlock">IR A MIS TAREAS</button>
+  <img src="/imgs/animal.png" class="animal">
+
+  </div>
+  
 
 </template>
 
@@ -42,6 +57,7 @@ export default {
   flex-wrap: nowrap;
   justify-content: center;
   height: 100vh;
+  align-items: center;
 }
 
 .avatar{
@@ -84,8 +100,8 @@ export default {
   height: 8vw;
   border-radius: 8vw;
   position: absolute;
-  top: 39%;
-  left: 25%;
+  top: 29%;
+  left: 57%;
   display: flex;
   justify-content: center;
   background-color: #F1608A;
@@ -120,6 +136,52 @@ export default {
   margin: 0px;
 }
 
+.container-favs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.container-fav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.fav{
+  width: 8vw;
+  height: 8vw;
+  border-radius: 8vw;
+  display: flex;
+  justify-content: center;
+  background-color: #F1608A;
+}
+
+.ico-fav{
+  width: 50%;
+  height: auto;
+}
+
+.btn-fav{
+  width: 50vw;
+  height: 8vw;
+  background-color: white;
+  color: gray;
+  box-shadow: 1px 7px 9px -2px #FED7F5;
+  border-radius: 22px;
+  border: none;
+  margin-left: 3%;
+}
+
+.animal {
+  width: 15%;
+  margin-top: 5%;
+}
 
 
 </style>

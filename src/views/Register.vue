@@ -134,7 +134,6 @@ export default {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  height: 80vh;
 }
 
 .form-container{
@@ -205,6 +204,6 @@ export default {
 .animal {
   width: 15%;
   margin-top: 5%;
-  }
+}
 
 </style>

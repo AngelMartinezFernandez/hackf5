@@ -73,22 +73,10 @@ describe('Home View Component unit tests: ', () => {
     expect(wrapper.html()).toContain(routerLink)
   })
 
-  //Testeando que se recibe prop y se renderiza correctamente
-  test.skip('AccionSaldo recibe el prop texto y lo renderiza', () => {
-    const text = 'Suma'
-    const wrapper = mount(AccionSaldo, {
-      props: {
-        texto: text
-      }
-    })
-    expect(wrapper.html()).toContain(text)
-
-  })
-
   //Mockeando que el boton hace algo
-  test.skip('AccionSaldo click does something', async () => {
-    const mockMethod = jest.spyOn(AccionSaldo.methods, 'accion')
-    await shallowMount(AccionSaldo).find('button').trigger('click')
+  test.skip('Home click does something', async () => {
+    const mockMethod = jest.spyOn(Home.methods, 'accion')
+    await shallowMount(Home).find('button').trigger('click')
     expect(mockMethod).toHaveBeenCalled()
   })
 
