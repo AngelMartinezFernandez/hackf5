@@ -5,6 +5,7 @@
     <li>{{task.name}}</li>
     <li>{{task.description}}</li>
   </ul>
+  <router-link to="/" class="btn btn-primary btn-block">Atrás</router-link>
 </template>
 
 <script>

@@ -10,7 +10,7 @@
         <label for="password">Contraseña</label>
         <input type="password" placeholder="Password" class="form-control" id="password" v-model.trim="pass">
       </div>
-      <button type="submit" class="btn btn-primary btn-block" :disabled="btnBlock">Entrar</button>
+      <router-link to="/" type="submit" class="btn btn-primary btn-block" :disabled="btnBlock">Entrar</router-link>
     </div>
   </form>
 </template>

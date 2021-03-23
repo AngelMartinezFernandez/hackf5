@@ -7,9 +7,10 @@
           <div class="form-group">
             <label for="person">Personas</label>
             <select name="person" class="form-control" id="person">
-              <option value="value1">Angel</option>
-              <option value="value2"></option>
-              <option value="value3">Angel</option>
+              <option value="value1">Alexandra</option>
+              <option value="value2">Carla</option>
+              <option value="value3">Arturo</option>
+              <option value="value4">Angel</option>
             </select>
           </div>
           <div class="form-group">
