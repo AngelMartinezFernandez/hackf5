@@ -25,6 +25,26 @@ const routes = [
     path: '/new-task',
     name: 'FormTask',
     component: () => import('../views/FormTask.vue')
+  },
+  {
+    path: '/week-task',
+    name: 'WeekTask',
+    component: () => import('../views/WeekTask.vue')
+  },
+  {
+    path: '/today-task',
+    name: 'TodayTask',
+    component: () => import('../views/TodayTask.vue')
+  },
+  {
+    path: '/help',
+    name: 'Help',
+    component: () => import('../views/Help.vue')
+  },
+  {
+    path: '/diary',
+    name: 'Diary',
+    component: () => import('../views/Diary.vue')
   }
 ]
 
