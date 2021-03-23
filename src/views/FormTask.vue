@@ -45,7 +45,8 @@ export default {
     btnBlock() {
       return this.taskName.trim() === ''
     }
-  }
+  },
+  methods: {}
 }
 </script>
 

@@ -3,6 +3,7 @@
   <section>
     <h2>WEB BUS</h2>
   </section>
+  <router-link to="/" class="btn btn-primary btn-block">Atrás</router-link>
   <section>
     <h2>YOUTUBE</h2>
   </section>
