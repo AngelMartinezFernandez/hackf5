@@ -28,7 +28,7 @@ describe('Diary View Component unit tests: ', () => {
 
         expect(wrapper.html()).toContain(h1Tag)
     })
-    test.skip('renders router-link', () => {
+    test('renders router-link', () => {
 
         expect(wrapper.html()).toContain(routerLink)
     })
@@ -39,7 +39,7 @@ describe('Home View Component unit tests: ', () => {
 
     const h2Tag = '<h2>'
     const h1Tag = '<h2>'
-    const routerLink = '</router-link>'
+    const routerLink = '<router-link>'
 
     test.skip('renders router-link', () => {
 

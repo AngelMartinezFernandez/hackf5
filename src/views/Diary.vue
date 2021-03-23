@@ -7,11 +7,28 @@
 </template>
 
 <script>
-import {mapState} from 'vuex'
 export default {
   name: "Diary",
+  data() {
+    return {
+      notes: [
+        {
+          title: 'Nota 1',
+          noteContent: 'Contenido de la nota'
+        },
+        {
+          title: 'Nota 2',
+          noteContent: 'Contenido de la nota'
+        },
+        {
+          title: 'Nota 2',
+          noteContent: 'Contenido de la nota'
+        },
+
+      ]
+    }
+  },
   computed:{
-    ...mapState(['notes'])
   }
 }
 </script>
