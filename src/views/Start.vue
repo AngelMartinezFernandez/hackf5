@@ -13,10 +13,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
   }
 
   .logo-start{
-    width: 90vw;
+    width: 80vw;
   }
 
 </style>

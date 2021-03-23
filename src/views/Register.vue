@@ -198,15 +198,8 @@ export default {
 }
 
 .btn-register{
-  width: 75vw;
-  height: 12vw;
-  border-radius: 20px;
-  border: none;
-  filter: drop-shadow(1px 1px 4px rgba(69, 69, 70, 0.1));
-  background: linear-gradient(94.12deg, #F6DEFF -1.29%, #E6D5EC 99.4%);
   margin-top: 5%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  color: #7D5F85;
+  
 }
 
 .animal {
